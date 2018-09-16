@@ -22,7 +22,7 @@ app.post('/spotify',cors(),(req,res)=>{
     //  var facing = req.body.facing;
     var token = req.body.token;
     // var key = 'happy';
-     var token = 'BQCbNTH_VyLT7z0qaSBU2vftJsUBWHkVfY4C3_TTl5LnQ9QoIhE8-KsLItmEhM2gUm1GaIr_rzE6Rk7ZF3QPp1r6ul9ZpMoNEagzNCcIVgOddUWMxoqAyX9IQtrTgIrMubdc0RmLRNSZaYvQ'
+     var token = 'BQA0G3aB7P63zIR3vn7M2vgi6vmnHV-xUvQW8DFIHAy59uK8Gm5NJWLSItOZxmVhvoidwdcY4yqcu0ZGTqqlpt3qWF9sog0CPE3uint8a-a4LjTho1Jv2DEA9Y9xNIY9T4gX_1zcAc6-YQlHY8WB'
 
     // var options = {
     //     mode: 'text',
