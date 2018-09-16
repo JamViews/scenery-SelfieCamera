@@ -4,7 +4,8 @@ const bodyParser = require('body-parser');
 const PythonShell = require('python-shell');
 const request = require('request');
 const app = express();
-const spawn = require('child_process');
+const spawn = require('child_process').spawn;
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(cors());
@@ -21,7 +22,7 @@ app.post('/spotify',cors(),(req,res)=>{
     //  var facing = req.body.facing;
     var token = req.body.token;
     // var key = 'happy';
-    // var token = 'BQAOfX3nZJXHB3oz32mej0JZuRBnBMrydLIof6V_SKAsCsxKnCDcIYVFnlNuveGgKLzcmTxavAW5CZXWSWwkwjHPLE2rQOtF2nD3auPZCAO7AJw0XQaaugpT-bG0OpFafJwrxNjxsuHDqiwFAQBk'
+     var token = 'BQCbNTH_VyLT7z0qaSBU2vftJsUBWHkVfY4C3_TTl5LnQ9QoIhE8-KsLItmEhM2gUm1GaIr_rzE6Rk7ZF3QPp1r6ul9ZpMoNEagzNCcIVgOddUWMxoqAyX9IQtrTgIrMubdc0RmLRNSZaYvQ'
 
     // var options = {
     //     mode: 'text',
