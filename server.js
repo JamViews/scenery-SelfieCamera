@@ -22,6 +22,7 @@ app.post('/spotify',cors(),(req,res)=>{
     //  var facing = req.body.facing;
     var token = req.body.token;
     // var key = 'happy';
+    //test
      var token = 'BQA0G3aB7P63zIR3vn7M2vgi6vmnHV-xUvQW8DFIHAy59uK8Gm5NJWLSItOZxmVhvoidwdcY4yqcu0ZGTqqlpt3qWF9sog0CPE3uint8a-a4LjTho1Jv2DEA9Y9xNIY9T4gX_1zcAc6-YQlHY8WB'
 
     // var options = {
